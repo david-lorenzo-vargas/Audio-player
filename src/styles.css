@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.button {
+  background: #333;
+  border-radius: 50px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.button:not(:last-of-type) {
+  margin-right: 5px;
+}
+
+.button-container {
+  display: table;
+  padding: 5px;
+  background: black;
+  border-radius: 40px;
+  margin: 20px auto;
+}
+
+.button--active {
+  background-color: #50e3c2;
+}
+
+.playlist-container {
+  background-color: black;
+  padding: 5px 10px;
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.playlist__item {
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  background: #333;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+}
+
+.playlist__item:hover:not(.playlist__item--active) {
+  background-color: #444;
+}
+
+.playlist__item--active {
+  background-color: #50e3c2;
+}
+
+.progress-bar__parent {
+  max-width: 500px;
+  margin: auto;
+  padding: 40px;
+}
+
+.progress-bar {
+  height: 4px;
+  width: 100%;
+  position: relative;
+  background: black;
+}
+
+.progress-bar__line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background-color: #50e3c2;
+}
