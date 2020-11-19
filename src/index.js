@@ -1,4 +1,3 @@
-import "./styles.css";
 
 const appElement = document.querySelector("#app");
 
